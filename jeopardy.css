@@ -1,0 +1,67 @@
+body {
+  background-color: #eec3e7;
+  font-family: 'Poppins', sans-serif;
+}
+
+#button-container {
+  text-align: center;
+  margin: 10px;
+}
+
+#new-game-button {
+  background-color: rgb(30, 30, 173);
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(196, 134, 41);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#new-game-button:hover {
+  background-color: rgb(63, 63, 247);
+}
+
+#tableContainer {
+  display:flex;
+  justify-content: center;
+}
+table {
+  width: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead td {
+  font-size: 1.5rem;
+  color: white;
+  height: 90px;
+}
+
+tbody td {
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: .9rem;
+  height: 130px;
+}
+
+td {
+  text-align: center;
+  width: 16%;
+  border: 1.5px solid black;
+  color: white;
+  background: radial-gradient(circle,rgb(24, 24, 158), rgb(7, 7, 87));
+}
+
+.null {
+  font-size: 3rem;
+  color: rgb(196, 134, 41);
+}
+
+.complete {
+  background: radial-gradient(circle,rgb(116, 116, 231), rgb(74, 74, 192));
+}
